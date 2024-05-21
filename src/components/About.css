@@ -1,0 +1,19 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+.heading1{
+    font-size: 3rem;
+    padding: 10px 150px;
+}
+
+.subhead1{
+    padding-left: 150px;
+    padding-bottom: 50vh;
+}
+
+.textpart{
+    padding: 100px;
+}
