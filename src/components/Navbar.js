@@ -6,7 +6,7 @@ import logo_light from '../asessts/images/logo-w.png';
 
 const Navbar = () => {
     const handleRedirect = () => {
-        window.location.href = 'http://127.0.0.1:3000';
+        window.location.href = 'https://wallet-watch.github.io/';
     };
   return (
     

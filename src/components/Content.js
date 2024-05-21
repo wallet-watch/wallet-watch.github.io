@@ -12,12 +12,12 @@ const Content = () => {
                         <h2 className="content-text">Get the App</h2>
                     </td>
                     <td>
-                        <a href="http://127.0.0.1:3000">
+                        <a href="https://wallet-watch.github.io/">
                             <img src={Playstore} alt="playstore-img" className="playstore" />
                         </a>
                     </td>
                     <td>
-                        <a href="http://127.0.0.1:3000">
+                        <a href="https://wallet-watch.github.io/">
                             <img src={Appstore} alt="appstore-img" className="appstore" />
                         </a>
                     </td>

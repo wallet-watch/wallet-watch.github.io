@@ -11,16 +11,16 @@ const Footer = () => {
                 <div className="footer-left">
                     <h2>Wallet Watch</h2>
                     <div className="social-icons">
-                        <a href="http://127.0.0.1:3000">
+                        <a href="https://wallet-watch.github.io/">
                             <FontAwesomeIcon icon={faFacebookF} />
                         </a>
-                        <a href="http://127.0.0.1:3000">
+                        <a href="https://wallet-watch.github.io/">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                        <a href="http://127.0.0.1:3000">
+                        <a href="https://wallet-watch.github.io/">
                             <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
-                        <a href="http://127.0.0.1:3000">
+                        <a href="https://wallet-watch.github.io/">
                             <FontAwesomeIcon icon={faYoutube} />
                         </a>
                     </div>
