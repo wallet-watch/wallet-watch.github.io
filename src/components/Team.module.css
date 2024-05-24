@@ -1,45 +1,45 @@
 /* Global styles for the team section */
-.team-section {
+.teamsection {
     padding: 2rem;
   }
   
-  .team-heading {
+  .teamheading {
     text-align: center;
     margin-bottom: 2rem;
   }
 
-  .pro-heading {
+  .proheading {
     text-align: center;
   }
 
-  .pro-heading h1{
+  .proheading h1{
     font-size: 2rem;
     font-weight: 700;
     color: #111827;
     padding-bottom: 1rem;
   }
 
-  .pro-heading p{
+  .proheading p{
     color: #6b7280; /* text-gray-500 */
     font-size: 1rem;
     max-width: 600px;
     margin: 0 auto;
   }
   
-  .team-heading h1 {
+  .teamheading h1 {
     font-size: 2rem;
     font-weight: 700;
     color: #111827; /* text-gray-900 */
   }
   
-  .team-heading p {
+  .teamheading p {
     color: #6b7280; /* text-gray-500 */
     font-size: 1rem;
     max-width: 600px;
     margin: 0 auto;
   }
   
-  .team-grid {
+  .teamgrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
@@ -47,43 +47,43 @@
     justify-items: center;
   }
   
-  .team-member {
+  .teammember {
     text-align: center;
   }
   
-  .team-member img {
+  .teammember img {
     width: 150px;
     height: 150px;
     border-radius: 0.75rem; /* rounded-lg */
     object-fit: cover;
   }
   
-  .team-member h3 {
+  .teammember h3 {
     font-size: 1.125rem; /* text-lg */
     font-weight: 600;
     color: #111827; /* text-gray-900 */
     margin-top: 1rem;
   }
   
-  .team-member p {
+  .teammember p {
     color: #6b7280; /* text-gray-500 */
     font-size: 0.875rem; /* text-sm */
   }
   
-  .team-member .social-icons {
+  .teammember .socialicons {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
   }
   
-  .team-member .social-icons a {
+  .teammember .socialicons a {
     color: #6b7280; /* text-gray-500 */
     font-size: 1.25rem; /* text-xl */
     transition: color 0.3s;
   }
   
-  .team-member .social-icons a:hover {
+  .teammember .socialicons a:hover {
     color: #3b82f6; /* text-blue-500 */
   }
   

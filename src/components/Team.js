@@ -1,5 +1,5 @@
 import React from 'react'
-import './Team.css'
+import styles from './Team.module.css'
 
 const teamMembers = [
     {
@@ -42,18 +42,18 @@ const teamMembers = [
 const Team = () => {
   return (
     <div>
-      <section className="team-section">
-      <div className="team-heading">
+      <section className={styles.teamsection}>
+      <div className={styles.teamheading}>
         <h1>Our team</h1>
         <p>We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
       </div>
-      <div className="team-grid">
+      <div className={styles.teamgrid}>
         {teamMembers.map((member, index) => (
-          <div key={index} className="team-member">
+          <div key={index} className={styles.teammember}>
             <img src={member.imageUrl} alt={member.name} />
             <h3>{member.name}</h3>
             <p>{member.role}</p>
-            <div className="social-icons">
+            <div className={styles.socialicons}>
               <a href={member.emailUrl} aria-label="Email" target='_blank' rel="noopener noreferrer">
                 <i className="fas fa-envelope"></i>
               </a>
@@ -65,8 +65,8 @@ const Team = () => {
         ))}
       </div>
     </section>
-    <div className='team-section'>
-        <div className='pro-heading'>
+    <div className={styles.teamsection}>
+        <div className={styles.proheading}>
             <h1>Our Project</h1>
             <div>
                 <h4>At WalletWatch, we understand the complexities of managing personal finances in today's fast-paced world. That's why we're developing an innovative budget tracking and tax calculation application designed to simplify and streamline your financial life.WalletWatch is your ultimate personal finance assistant, combining powerful tools with a user-friendly interface to help you take control of your money. Our app is built to cater to all your financial needs, whether it's keeping track of your daily expenses, setting and sticking to a budget, or ensuring you’re prepared for tax season.<p>Take the stress out of managing your finances. Join the WalletWatch App today and experience the future of personal finance management. Whether you're looking to save more, spend wisely, or just keep better track of your money, WalletWatch is here to help.</p></h4>
