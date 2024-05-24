@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Img from '../components/Img'
 import Content from '../components/Content'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
     return (

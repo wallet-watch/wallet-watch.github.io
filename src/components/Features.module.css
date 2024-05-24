@@ -1,0 +1,137 @@
+.heading{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+}
+
+.content h1{
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+}
+
+.content p{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.firsthead{
+    font-size: 2rem;
+    padding: 10px 50px;
+}
+
+.first{
+    font-size: 1.2rem;
+    padding: 10px 50px 100px;
+}
+
+.secondhead{
+    font-size: 2rem;
+    padding: 10px 50px;
+}
+
+.second{
+    padding: 10px 50px 100px;
+}
+/* Define the keyframes for the border animation */
+@keyframes borderAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Define the animate-background class using the keyframes */
+  .animatebackground {
+    background-size: 400% 400%;
+    animation: borderAnimation 4s ease infinite;
+  }
+  
+  /* Additional styling */
+  .articlecontainer {
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 10vh;
+    border-radius: 1rem;
+    background: linear-gradient(to right, #a7f3d0, #3b82f6, #a855f7);
+    padding: 0.25rem; /* 0.5 is too much */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .articlecontainer:hover {
+    box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.1), 0 4px 8px -4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .articlecontent {
+    border-radius: 0.625rem; /* 10px */
+    background: white;
+    padding: 1.5rem;
+    padding-top: 2.5rem; /* 20pt */
+    margin-left: 20vh;
+  }
+  
+  .head {
+    display: block;
+    font-size: 1rem; /* text-xs */
+    color: #6b7280; /* text-gray-500 */
+  }
+  
+  .title {
+    margin-top: 0.125rem;
+    font-size: 1.25rem; /* text-lg */
+    font-weight: 500;
+    color: #111827; /* text-gray-900 */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content h1{
+      font-size: 3rem;
+    }
+    .content p{
+      font-size: 1rem;
+    }
+
+    .articlecontainer {
+      margin-left: 1vh;
+      margin-right: 1vh;
+      margin-bottom: 3vh;
+      border-radius: 0.25rem;
+      padding: 0.125rem;
+    }
+
+    .animatebackground {
+      background-size: 200% 200%;
+    }
+
+    .articlecontent {
+      padding: 0.5rem;
+      padding-top: 1.5rem;
+      margin-left: 15vh;
+    }
+
+    .head {
+      font-size: 0.7rem; /* text-xs */
+    }
+    
+    .title {
+      margin-top: 0.125rem;
+      font-size: 1rem; /* text-lg */
+    }
+  }

@@ -1,4 +1,4 @@
-.footer-div{
+.footerdiv{
     width: 100%;
     height: 25vh;
     background-color: #e2e1e1;
@@ -7,7 +7,7 @@
     bottom: 0;
 }
 
-.footer-content {
+.footercontent {
     padding-top: 8vh;
     display: flex;
     justify-content: space-between;
@@ -16,40 +16,40 @@
     margin: 0 auto;
 }
 
-.footer-left {
+.footerleft {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.footer-left h2 {
+.footerleft h2 {
     text-align: left;
     margin: 0;
     font-size: 2.5rem;
 }
 
-.social-icons {
+.socialicons {
     text-align: left;
     margin-top: 10px;
 }
 
-.social-icons a {
+.socialicons a {
     margin: 0 5px;
     color: #333;
     font-size: 1.5rem;
     transition: color 0.3s;
 }
 
-.social-icons a:hover {
+.socialicons a:hover {
     color: #007bff;
 }
 
-.footer-right {
+.footerright {
     display: flex;
     gap: 40px;
 }
 
-.footer-button {
+.footerbutton {
     text-decoration: none;
     background: none;
     border: none;
@@ -59,6 +59,33 @@
     transition: color 0.3s;
 }
 
-.footer-button:hover {
+.footerbutton:hover {
     color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+    .footerdiv{
+        height: 15vh;
+    }
+
+    .footercontent {
+        padding-top: 4vh;
+        max-width: 50vh;
+    }
+
+    .footerleft h2{
+        font-size: 1rem;
+    }
+
+    .socialicons a {
+        font-size: 1rem;
+    }
+
+    .footerright{
+        gap: 15px;
+    }
+
+    .footerbutton{
+        font-size: 0.8rem;
+    }
 }

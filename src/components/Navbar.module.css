@@ -1,0 +1,99 @@
+/* Styles for the overlay menu */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .overlayActive {
+    display: flex;
+  }
+  
+  .overlayMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .overlayMenu a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+  }
+
+  .overlayNavLink{
+    margin: 10px 10px;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Ensure NavMenu is hidden on mobile */
+  @media screen and (max-width: 768px) {
+    .navMenu {
+      display: none;
+    }
+  }
+  
+  /* Ensure NavMenu is displayed inline on larger screens */
+  .navMenu {
+    display: flex;
+    align-items: center;
+  }
+  
+
+.img{
+    width: 15vh;
+    height: 10vh;
+}
+
+.NavBtn{
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+  @media screen and (max-width: 768px) {
+    .NavBtn{
+      display: none;
+    }
+  }
+
+.NavBtnLink{
+  border-radius: 4px;
+  background: #53cedf;
+  padding: 10px 22px;
+  color: #000;
+  font-weight:500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  /* Second Nav */
+  margin-left: 24px;
+}
+
+.NavBtnLink:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
