@@ -1,28 +1,77 @@
-import './Features.css';
+import styles from './Features.module.css';
 import React from 'react';
 
 const Features = () => {
     return (
         <div>
-            <div className="heading">
-            <div className="content">
+            <div className={styles.heading}>
+            <div className={styles.content}>
                 <h1>Features</h1>
                 <p>These are the things you can get from our app</p>
             </div>
             </div>
-            <div className='features'>
-                <h3 className='firsthead'>Tax</h3>
-                <p className='first'>Real-time analysis of Tax liabilities</p>
-                <h3 className='secondhead'>Income & Expense Track</h3>
-                <p className='second'>Identification of individual Income and Expense transactions and automated notifications of transactions without any need of user</p>
-                <h3 className='firsthead'>Analyze Income</h3>
-                <p className='second'>Analysis of every individual Income sources</p>
-                <h3 className='firsthead'>Adjust Budget</h3>
-                <p className='second'>Multiple budget configurations</p>
-                <h3 className='firsthead'>Report Generation</h3>
-                <p className='second'>Instantaneous financial report generation</p>
-                <h3 className='firsthead'>Highend Security</h3>
-                <p className='second'>End-to-End Encryption and Device Authorization</p>
+            <div>
+                <article className={`${styles.articlecontainer} ${styles.animatebackground}`}>
+                    <div className={styles.articlecontent}>
+                        <div className={styles.head}>
+                        Tax  Calculation
+                        </div>
+                        <h3 className={styles.title}>
+                        Real-time analysis of Tax liabilities
+                        </h3>
+                    </div>
+                </article>
+                <article className={`${styles.articlecontainer} ${styles.animatebackground}`}>
+                    <div className={styles.articlecontent}>
+                        <div className={styles.head}>
+                        Income & Expense Track
+                        </div>
+                        <h3 className={styles.title}>
+                        Identification of individual Income and Expense transactions and automated notifications of transactions without any need of user
+                        </h3>
+                    </div>
+                </article>
+                <article className={`${styles.articlecontainer} ${styles.animatebackground}`}>
+                    <div className={styles.articlecontent}>
+                        <div className={styles.head}>
+                        Analyze Income
+                        </div>
+                        <h3 className={styles.title}>
+                        Analysis of every individual Income sources
+                        </h3>
+                    </div>
+                </article>
+                <article className={`${styles.articlecontainer} ${styles.animatebackground}`}>
+                    <div className={styles.articlecontent}>
+                        <div className={styles.head}>
+                        Adjust Budget
+                        </div>
+                        <h3 className={styles.title}>
+                        Multiple budget configurations
+                        </h3>
+                    </div>
+                </article>
+                <article className={`${styles.articlecontainer} ${styles.animatebackground}`}>
+                    <div className={styles.articlecontent}>
+                        <div className={styles.head}>
+                        Report Generation
+                        </div>
+                        <h3 className={styles.title}>
+                        Instantaneous financial report generation
+                        </h3>
+                    </div>
+                </article>
+                <article className={`${styles.articlecontainer} ${styles.animatebackground}`}>
+                    <div className={styles.articlecontent}>
+                        <div className={styles.head}>
+                        Highend Security
+                        </div>
+                        <h3 className={styles.title}>
+                        End-to-End Encryption and Device Authorization
+                        </h3>
+                    </div>
+                </article>
+                
             </div>
         </div>
     )

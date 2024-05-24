@@ -1,6 +1,6 @@
-.hero{
+.hero {
     position: relative;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,19 +10,28 @@
     overflow: hidden;
 }
 
-.content{
-    padding-top: 25vh;
+.content {
     position: relative;
     z-index: 1;
 }
 
-.content h1{
+.content h1 {
     font-size: 6rem;
     text-align: center;
     margin: 0;
 }
 
-.content p{
+.content p {
     font-size: 1.5rem;
     margin: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 3rem; /* Increased font size for better visibility */
+    }
+
+    .content p{
+        font-size: 1rem;
+    }
 }

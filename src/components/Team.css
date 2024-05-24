@@ -1,0 +1,89 @@
+/* Global styles for the team section */
+.team-section {
+    padding: 2rem;
+  }
+  
+  .team-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .pro-heading {
+    text-align: center;
+  }
+
+  .pro-heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    padding-bottom: 1rem;
+  }
+
+  .pro-heading p{
+    color: #6b7280; /* text-gray-500 */
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .team-heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827; /* text-gray-900 */
+  }
+  
+  .team-heading p {
+    color: #6b7280; /* text-gray-500 */
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0.75rem; /* rounded-lg */
+    object-fit: cover;
+  }
+  
+  .team-member h3 {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 600;
+    color: #111827; /* text-gray-900 */
+    margin-top: 1rem;
+  }
+  
+  .team-member p {
+    color: #6b7280; /* text-gray-500 */
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .team-member .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .team-member .social-icons a {
+    color: #6b7280; /* text-gray-500 */
+    font-size: 1.25rem; /* text-xl */
+    transition: color 0.3s;
+  }
+  
+  .team-member .social-icons a:hover {
+    color: #3b82f6; /* text-blue-500 */
+  }
+  
