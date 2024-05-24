@@ -24,11 +24,11 @@ const teamMembers = [
         linkedinUrl: '#'
       },
       {
-        name: 'Chithaa',
+        name: 'Chithaa Mithmaa Madanayake',
         role: 'Developer, Designer',
         imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URL
         emailUrl: '#',
-        linkedinUrl: '#'
+        linkedinUrl: ''
       },
       {
         name: 'Kavindu Sahan',
