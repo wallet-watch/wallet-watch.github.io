@@ -17,18 +17,18 @@ const teamMembers = [
         linkedinUrl: '#'
       },
       {
-        name: 'Thisuni',
+        name: 'Thisumi Nimnadi Rathnayake',
         role: 'Developer, Business Analyst, Designer',
         imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URL
-        emailUrl: '#',
-        linkedinUrl: '#'
+        emailUrl: 'mailto:Thisumi.20244035@iit.ac.lk',
+        linkedinUrl: 'https://www.linkedin.com/in/thisumi-rathnayake-2513a72b2/'
       },
       {
         name: 'Chithaa Mithmaa Madanayake',
         role: 'Developer, Designer',
         imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URL
-        emailUrl: '#',
-        linkedinUrl: ''
+        emailUrl: 'mailto:chithaa.20244018@iit.ac.lk',
+        linkedinUrl: 'https://www.linkedin.com/in/chithaa-madanayake-a3814a293/'
       },
       {
         name: 'Kavindu Sahan',
