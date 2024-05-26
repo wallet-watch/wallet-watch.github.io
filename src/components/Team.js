@@ -5,7 +5,7 @@ const teamMembers = [
     {
         name: "Anthony Randev Perera",
         role: "Developer, Business Analyst, Designer",
-        imageUrl : "src/asessts/images/1679066084252.jfif",
+        imageUrl : "https://media.licdn.com/dms/image/D4E03AQFu_Zbg7gwYGg/profile-displayphoto-shrink_800_800/0/1679066084252?e=1722470400&v=beta&t=Wrqwh-ilj06y-2kfhY-S03sIiB6EqkcKrX2Nk5ghq-I",
         emailUrl: "mailto:randevp2003@gmail.com",
         linkedinUrl: "https://www.linkedin.com/in/randev-perera-74145026a"
     },
