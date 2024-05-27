@@ -10,11 +10,11 @@ const teamMembers = [
         linkedinUrl: "https://www.linkedin.com/in/randev-perera-74145026a"
     },
     {
-        name: 'Ishara',
+        name: 'Ishara Harshana',
         role: 'Developer, Designer',
         imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URL
-        emailUrl: '#',
-        linkedinUrl: '#'
+        emailUrl: 'mailto:isharaharshana06@gmail.com',
+        linkedinUrl: 'https://www.linkedin.com/in/ishara-harshana-592841251/'
       },
       {
         name: 'Thisumi Nimnadi Rathnayake',
