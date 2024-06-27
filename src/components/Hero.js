@@ -58,7 +58,8 @@ const Hero = () => {
                 </div>
                 <h1>Wallet Watch</h1>
                 <p>Get Wallet watch and be stressless</p>
-            </div> 
+                <h2>IIT Ideathon Finalist</h2>
+            </div>
         </div>
     )
 }

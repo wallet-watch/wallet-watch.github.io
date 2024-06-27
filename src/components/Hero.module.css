@@ -19,11 +19,22 @@
     font-size: 6rem;
     text-align: center;
     margin: 0;
+    background: linear-gradient(to right, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .content p {
     font-size: 1.5rem;
     margin: 1rem;
+}
+
+.content h2 {
+    background: linear-gradient(to right, #eca5a5, #e15959, #caab21, #95bb0d, #9ef300 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
