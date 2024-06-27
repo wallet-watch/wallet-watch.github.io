@@ -46,3 +46,13 @@
         font-size: 1rem;
     }
 }
+
+.emoji {
+    font-family: 'Noto Color Emoji', sans-serif;
+  }
+
+  .paragraphs{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+}

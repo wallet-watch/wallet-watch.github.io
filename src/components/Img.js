@@ -4,20 +4,9 @@ import styles from './Img.module.css';
 import { useInView } from 'react-intersection-observer';
 import Imghero2 from '../asessts/images/main2.jpg';
 import Imgheromob from '../asessts/images/mainweb-mob.jpg';
-import emojiSalary from '../asessts/images/eyes.svg'; // Example emoji image
-import emojiThinking from '../asessts/images/face-with-rolling-eyes.svg'; // Example emoji image
-import emojiConfused from '../asessts/images/thinking-face.svg'; // Example emoji image
-import emojiSweating from '../asessts/images/weary-face.svg'; // Example emoji image
-import Typewriter from 'typewriter-effect'
+
 
 const Img = () => {
-
-  const typewriterStrings = [
-    `Got your Salary <img src="${emojiSalary}" alt="emoji" style="width: 1em; height: 1em; vertical-align: middle;" />?`,
-    `How to spend your salary in an efficient way? <img src="${emojiThinking}" alt="emoji" style="width: 1em; height: 1em; vertical-align: middle;" />`,
-    `No idea about how your money lost? <img src="${emojiConfused}" alt="emoji" style="width: 1em; height: 1em; vertical-align: middle;" />`,
-    `Don't know how to pay taxes? <img src="${emojiSweating}" alt="emoji" style="width: 1em; height: 1em; vertical-align: middle;" />`
-  ];
 
   const [imageSrc, setImageSrc] = useState(Imghero);
 
@@ -39,46 +28,11 @@ const Img = () => {
     };
   }, []);
 
-  const [startTyping, setStartTyping] = useState(false);
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.5,
-  });
-
-  useEffect(() => {
-    if (inView && !startTyping) {
-      setStartTyping(true);
-    }
-  }, [inView, startTyping]);
-
   return (
     <div className={styles.middleimg}>
       <div className={styles.paragraphs}>
-        <div className={styles.box}>
-          <h1 ref={ref} className={styles.emoji}>
-          {startTyping && (
-              <Typewriter
-                options={{
-                  strings: typewriterStrings,
-                  autoStart: true,
-                  loop: true,
-                  deleteSpeed: 50,
-                  delay: 100,
-                }}
-                onInit={(typewriter) => {
-                  typewriterStrings.forEach((string, i) => {
-                    typewriter.typeString(string).pauseFor(2500).deleteAll();
-                    if (i === typewriterStrings.length - 1) {
-                      typewriter.start();
-                    }
-                  });
-                }}
-              />
-            )}
-          </h1>
-        </div>
         <h1 className={styles.wallet}>
-          Get <span className={styles.colorchng}>WalletWatch!</span>
+          <span className={styles.colorchng}>Coming Soon</span> in Play Store
         </h1>
       </div>
       <div className={styles.heroimg}>
