@@ -18,7 +18,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to="/" >
-          <img src={require('../asessts/images/logo-w.png')} alt='logo' className={styles.img} />
+          <img src={require('../asessts/images/logoW.png')} alt='logo' className={styles.img} />
         </NavLink>
         <Bars onClick={handleToggle} />
         <NavMenu>
