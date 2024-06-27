@@ -7,6 +7,7 @@ const Hero = () => {
             <div className={styles.content}>
                 <h1>Wallet Watch</h1>
                 <p>Get Wallet watch and be stressless</p>
+                <h2>IIT Ideathon Finalist</h2>
             </div>
         </div>
     )
