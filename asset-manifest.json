@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9b5ab47.css",
-    "main.js": "/static/js/main.3a96e37e.js",
+    "main.css": "/static/css/main.6544e58d.css",
+    "main.js": "/static/js/main.be0de084.js",
     "static/media/mainweb.jpg": "/static/media/mainweb.fc5f6f28d1dd889720f8.jpg",
     "static/media/main2.jpg": "/static/media/main2.cb501d665910c343bece.jpg",
     "static/media/mainweb-mob.jpg": "/static/media/mainweb-mob.708c23c1fd5726472606.jpg",
-    "static/media/logoW.png": "/static/media/logoW.0bf22c5ce96c526b4413.png",
+    "static/media/logoww.png": "/static/media/logoww.5da2922b820ace910a89.png",
     "static/media/appstore.png": "/static/media/appstore.759c2b4dfda0e5ddcf28.png",
     "static/media/thinking-face.svg": "/static/media/thinking-face.a93895edfb052f706ae5488e8d3f7a74.svg",
     "static/media/weary-face.svg": "/static/media/weary-face.907d46b9a2d9632c5aa3d608203cd78a.svg",
     "static/media/eyes.svg": "/static/media/eyes.a3649de9b6ce55472ff88f54b7ced4b1.svg",
     "index.html": "/index.html",
     "static/media/face-with-rolling-eyes.svg": "/static/media/face-with-rolling-eyes.7ba5b2d4e180afbcc26a7f5f44832e06.svg",
-    "main.e9b5ab47.css.map": "/static/css/main.e9b5ab47.css.map",
-    "main.3a96e37e.js.map": "/static/js/main.3a96e37e.js.map"
+    "main.6544e58d.css.map": "/static/css/main.6544e58d.css.map",
+    "main.be0de084.js.map": "/static/js/main.be0de084.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9b5ab47.css",
-    "static/js/main.3a96e37e.js"
+    "static/css/main.6544e58d.css",
+    "static/js/main.be0de084.js"
   ]
 }
